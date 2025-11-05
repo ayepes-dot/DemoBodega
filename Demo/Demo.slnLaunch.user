@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "UserService.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\AuthService.Api\\AuthService.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\InventoryService.Api\\InventoryService.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

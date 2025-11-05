@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ayepe\\Desktop\\Demo\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{417B973F-375A-4B35-A553-5D18E4BCC178}|..\\inventoryApplication\\InventoryServices.csproj|c:\\users\\ayepe\\desktop\\demo\\inventoryapplication\\services\\excelprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F66EC98-2722-482B-A441-70070DAEFE4F}|..\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\ayepe\\desktop\\demo\\inventoryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F66EC98-2722-482B-A441-70070DAEFE4F}|..\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\ayepe\\desktop\\demo\\inventoryservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF731032-661A-4BFC-B821-C92001A31521}|..\\AuthService.Api\\AuthService.Api.csproj|c:\\users\\ayepe\\desktop\\demo\\authservice.api\\authcustoms\\authutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F66EC98-2722-482B-A441-70070DAEFE4F}|..\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\ayepe\\desktop\\demo\\inventoryservice.api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ayepe\\Desktop\\Demo\\InventoryInfrastructure\\Migrations\\20251105054502_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97568C81-5CD5-4BE6-8D03-1EF6B50733C7}|..\\InventoryInfrastructure\\inventoryDatabase.csproj|c:\\users\\ayepe\\desktop\\demo\\inventoryinfrastructure\\context\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C3586B-FD24-4874-BD82-41C6374AC6C4}|..\\InventoryDomain\\InventoryDomain.csproj|c:\\users\\ayepe\\desktop\\demo\\inventorydomain\\inventoryentities\\documentotransporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C3586B-FD24-4874-BD82-41C6374AC6C4}|..\\InventoryDomain\\InventoryDomain.csproj|c:\\users\\ayepe\\desktop\\demo\\inventorydomain\\inventoryentities\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C3586B-FD24-4874-BD82-41C6374AC6C4}|..\\InventoryDomain\\InventoryDomain.csproj|c:\\users\\ayepe\\desktop\\demo\\inventorydomain\\inventoryentities\\referencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF731032-661A-4BFC-B821-C92001A31521}|..\\AuthService.Api\\AuthService.Api.csproj|c:\\users\\ayepe\\desktop\\demo\\authservice.api\\controllers\\authservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthUtilities.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\AuthService.Api\\AuthCustoms\\AuthUtilities.cs",
+              "RelativeDocumentMoniker": "..\\AuthService.Api\\AuthCustoms\\AuthUtilities.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\AuthService.Api\\AuthCustoms\\AuthUtilities.cs",
+              "RelativeToolTip": "..\\AuthService.Api\\AuthCustoms\\AuthUtilities.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:05:44.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251105054502_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryInfrastructure\\Migrations\\20251105054502_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\InventoryInfrastructure\\Migrations\\20251105054502_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryInfrastructure\\Migrations\\20251105054502_InitialCreate.cs",
+              "RelativeToolTip": "..\\InventoryInfrastructure\\Migrations\\20251105054502_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:45:04.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\InventoryService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryService.Api\\Program.cs",
+              "RelativeToolTip": "..\\InventoryService.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:25:47.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\InventoryService.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryService.Api\\appsettings.json",
+              "RelativeToolTip": "..\\InventoryService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T05:24:50.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryService.Api\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "..\\InventoryService.Api\\Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryService.Api\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "..\\InventoryService.Api\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:07:44.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Caja.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryDomain\\InventoryEntities\\Caja.cs",
+              "RelativeDocumentMoniker": "..\\InventoryDomain\\InventoryEntities\\Caja.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryDomain\\InventoryEntities\\Caja.cs",
+              "RelativeToolTip": "..\\InventoryDomain\\InventoryEntities\\Caja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T03:58:02.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Referencia.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryDomain\\InventoryEntities\\Referencia.cs",
+              "RelativeDocumentMoniker": "..\\InventoryDomain\\InventoryEntities\\Referencia.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryDomain\\InventoryEntities\\Referencia.cs",
+              "RelativeToolTip": "..\\InventoryDomain\\InventoryEntities\\Referencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T03:59:20.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryInfrastructure\\Context\\InventoryDbContext.cs",
+              "RelativeDocumentMoniker": "..\\InventoryInfrastructure\\Context\\InventoryDbContext.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryInfrastructure\\Context\\InventoryDbContext.cs",
+              "RelativeToolTip": "..\\InventoryInfrastructure\\Context\\InventoryDbContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T03:55:42.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DocumentoTransporte.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryDomain\\InventoryEntities\\DocumentoTransporte.cs",
+              "RelativeDocumentMoniker": "..\\InventoryDomain\\InventoryEntities\\DocumentoTransporte.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\InventoryDomain\\InventoryEntities\\DocumentoTransporte.cs",
+              "RelativeToolTip": "..\\InventoryDomain\\InventoryEntities\\DocumentoTransporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T03:55:21.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExcelProcessingService.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\inventoryApplication\\Services\\ExcelProcessingService.cs",
+              "RelativeDocumentMoniker": "..\\inventoryApplication\\Services\\ExcelProcessingService.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\inventoryApplication\\Services\\ExcelProcessingService.cs",
+              "RelativeToolTip": "..\\inventoryApplication\\Services\\ExcelProcessingService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T03:54:56.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\ayepe\\Desktop\\Demo\\AuthService.Api\\Controllers\\AuthServiceController.cs",
+              "RelativeDocumentMoniker": "..\\AuthService.Api\\Controllers\\AuthServiceController.cs",
+              "ToolTip": "C:\\Users\\ayepe\\Desktop\\Demo\\AuthService.Api\\Controllers\\AuthServiceController.cs",
+              "RelativeToolTip": "..\\AuthService.Api\\Controllers\\AuthServiceController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAQwEkAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T02:55:06.483Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

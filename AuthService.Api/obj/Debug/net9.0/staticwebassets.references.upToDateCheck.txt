@@ -1,0 +1,4 @@
+C:\Users\ayepe\Desktop\Demo\Demo\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\ayepe\Desktop\Demo\Demo\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\ayepe\Desktop\Demo\Demo\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\ayepe\Desktop\Demo\Demo\obj\Debug\net9.0\staticwebassets.build.json

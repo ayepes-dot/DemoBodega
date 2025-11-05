@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "InventoryService.Api.Controllers.UploadController",
+    "Method": "UploadExcel",
+    "RelativePath": "api/Upload/upload-excel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

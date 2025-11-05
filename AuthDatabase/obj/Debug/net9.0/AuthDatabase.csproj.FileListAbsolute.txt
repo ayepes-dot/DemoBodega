@@ -1,0 +1,17 @@
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\bin\Debug\net9.0\AuthDatabase.deps.json
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\bin\Debug\net9.0\AuthDatabase.runtimeconfig.json
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\bin\Debug\net9.0\AuthDatabase.dll
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\bin\Debug\net9.0\AuthDatabase.pdb
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\bin\Debug\net9.0\AuthDomain.dll
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\bin\Debug\net9.0\AuthDomain.pdb
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\AuthDatabase.csproj.AssemblyReference.cache
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\AuthDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\AuthDatabase.AssemblyInfoInputs.cache
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\AuthDatabase.AssemblyInfo.cs
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\AuthDatabase.csproj.CoreCompileInputs.cache
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\AuthData.03825B0F.Up2Date
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\AuthDatabase.dll
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\refint\AuthDatabase.dll
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\AuthDatabase.pdb
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\AuthDatabase.genruntimeconfig.cache
+C:\Users\ayepe\Desktop\Demo\AuthDatabase\obj\Debug\net9.0\ref\AuthDatabase.dll

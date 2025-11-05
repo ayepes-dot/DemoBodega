@@ -1,0 +1,14 @@
+C:\Users\ayepe\Desktop\Demo\AuthDomain\bin\Debug\net9.0\AuthDomain.deps.json
+C:\Users\ayepe\Desktop\Demo\AuthDomain\bin\Debug\net9.0\AuthDomain.runtimeconfig.json
+C:\Users\ayepe\Desktop\Demo\AuthDomain\bin\Debug\net9.0\AuthDomain.dll
+C:\Users\ayepe\Desktop\Demo\AuthDomain\bin\Debug\net9.0\AuthDomain.pdb
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\AuthDomain.csproj.AssemblyReference.cache
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\AuthDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\AuthDomain.AssemblyInfoInputs.cache
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\AuthDomain.AssemblyInfo.cs
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\AuthDomain.csproj.CoreCompileInputs.cache
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\AuthDomain.dll
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\refint\AuthDomain.dll
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\AuthDomain.pdb
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\AuthDomain.genruntimeconfig.cache
+C:\Users\ayepe\Desktop\Demo\AuthDomain\obj\Debug\net9.0\ref\AuthDomain.dll

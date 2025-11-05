@@ -1,0 +1,14 @@
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\bin\Debug\net9.0\InventoryDomain.deps.json
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\bin\Debug\net9.0\InventoryDomain.runtimeconfig.json
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\bin\Debug\net9.0\InventoryDomain.dll
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\bin\Debug\net9.0\InventoryDomain.pdb
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.csproj.AssemblyReference.cache
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.AssemblyInfoInputs.cache
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.AssemblyInfo.cs
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.csproj.CoreCompileInputs.cache
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.dll
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\refint\InventoryDomain.dll
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.pdb
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.genruntimeconfig.cache
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\ref\InventoryDomain.dll

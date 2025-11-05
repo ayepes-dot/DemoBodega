@@ -1,0 +1,17 @@
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\bin\Debug\net9.0\InventoryServices.deps.json
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\bin\Debug\net9.0\InventoryServices.dll
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\bin\Debug\net9.0\InventoryServices.pdb
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\bin\Debug\net9.0\InventoryDatabase.dll
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\bin\Debug\net9.0\InventoryDomain.dll
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\bin\Debug\net9.0\InventoryDatabase.pdb
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\bin\Debug\net9.0\InventoryDomain.pdb
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServices.csproj.AssemblyReference.cache
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServices.AssemblyInfoInputs.cache
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServices.AssemblyInfo.cs
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServices.csproj.CoreCompileInputs.cache
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\Inventor.A71F5A16.Up2Date
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServices.dll
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\refint\InventoryServices.dll
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServices.pdb
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\ref\InventoryServices.dll

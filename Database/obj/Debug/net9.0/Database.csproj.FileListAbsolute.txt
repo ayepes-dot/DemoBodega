@@ -1,0 +1,17 @@
+C:\Users\ayepe\Desktop\Demo\Database\bin\Debug\net9.0\Database.deps.json
+C:\Users\ayepe\Desktop\Demo\Database\bin\Debug\net9.0\Database.runtimeconfig.json
+C:\Users\ayepe\Desktop\Demo\Database\bin\Debug\net9.0\Database.dll
+C:\Users\ayepe\Desktop\Demo\Database\bin\Debug\net9.0\Database.pdb
+C:\Users\ayepe\Desktop\Demo\Database\bin\Debug\net9.0\Domain.dll
+C:\Users\ayepe\Desktop\Demo\Database\bin\Debug\net9.0\Domain.pdb
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\Database.csproj.AssemblyReference.cache
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\Database.AssemblyInfoInputs.cache
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\Database.AssemblyInfo.cs
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\Database.csproj.Up2Date
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\Database.dll
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\refint\Database.dll
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\Database.pdb
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\Database.genruntimeconfig.cache
+C:\Users\ayepe\Desktop\Demo\Database\obj\Debug\net9.0\ref\Database.dll

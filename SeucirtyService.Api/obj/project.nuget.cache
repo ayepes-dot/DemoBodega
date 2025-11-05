@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Awci3yx+VR0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ayepe\\Desktop\\Demo\\SeucirtyService.Api\\SeucirtyService.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayepe\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\ayepe\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
