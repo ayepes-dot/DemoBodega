@@ -15,3 +15,4 @@ C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServi
 C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\refint\InventoryServices.dll
 C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServices.pdb
 C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\ref\InventoryServices.dll
+C:\Users\ayepe\Desktop\Demo\inventoryApplication\obj\Debug\net9.0\InventoryServices.sourcelink.json

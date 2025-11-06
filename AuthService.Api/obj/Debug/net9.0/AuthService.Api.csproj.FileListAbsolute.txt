@@ -188,3 +188,4 @@ C:\Users\ayepe\Desktop\Demo\AuthService.Api\obj\Debug\net9.0\refint\AuthService.
 C:\Users\ayepe\Desktop\Demo\AuthService.Api\obj\Debug\net9.0\AuthService.Api.pdb
 C:\Users\ayepe\Desktop\Demo\AuthService.Api\obj\Debug\net9.0\AuthService.Api.genruntimeconfig.cache
 C:\Users\ayepe\Desktop\Demo\AuthService.Api\obj\Debug\net9.0\ref\AuthService.Api.dll
+C:\Users\ayepe\Desktop\Demo\AuthService.Api\obj\Debug\net9.0\AuthService.Api.sourcelink.json

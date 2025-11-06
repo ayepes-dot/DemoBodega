@@ -185,3 +185,9 @@ C:\Users\ayepe\Desktop\Demo\InventoryService.Api\obj\Debug\net9.0\refint\Invento
 C:\Users\ayepe\Desktop\Demo\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.pdb
 C:\Users\ayepe\Desktop\Demo\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.genruntimeconfig.cache
 C:\Users\ayepe\Desktop\Demo\InventoryService.Api\obj\Debug\net9.0\ref\InventoryService.Api.dll
+C:\Users\ayepe\Desktop\Demo\InventoryService.Api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ayepe\Desktop\Demo\InventoryService.Api\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\ayepe\Desktop\Demo\InventoryService.Api\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\ayepe\Desktop\Demo\InventoryService.Api\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+C:\Users\ayepe\Desktop\Demo\InventoryService.Api\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\ayepe\Desktop\Demo\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.sourcelink.json

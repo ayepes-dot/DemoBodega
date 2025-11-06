@@ -25,7 +25,8 @@ namespace AuthService.Api.AuthCustoms
             var userClaims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, usuario.UserId.ToString()),
-                new Claim(ClaimTypes.Email, usuario.Correo!)
+                new Claim(ClaimTypes.Email, usuario.Correo!),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));

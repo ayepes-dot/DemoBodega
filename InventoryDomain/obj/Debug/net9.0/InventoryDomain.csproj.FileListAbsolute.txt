@@ -12,3 +12,4 @@ C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\refint\InventoryDom
 C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.pdb
 C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.genruntimeconfig.cache
 C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\ref\InventoryDomain.dll
+C:\Users\ayepe\Desktop\Demo\InventoryDomain\obj\Debug\net9.0\InventoryDomain.sourcelink.json

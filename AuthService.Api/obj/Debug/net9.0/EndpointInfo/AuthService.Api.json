@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/login": {
+    "/api/AuthService/login": {
       "post": {
         "tags": [
           "AuthService"
@@ -36,7 +36,38 @@
         }
       }
     },
-    "/revokeToken": {
+    "/api/AuthService/revokeToken": {
+      "post": {
+        "tags": [
+          "AuthService"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/AuthService/validateToken": {
       "post": {
         "tags": [
           "AuthService"

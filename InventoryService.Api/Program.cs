@@ -1,4 +1,5 @@
 using InventoryDatabase.Context;
+using InventoryServices.Clients;
 using InventoryServices.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -15,28 +16,11 @@ builder.Services.AddDbContext<InventoryDbContext>(options =>
 
 builder.Services.AddScoped<ExcelProcessingService>();
 
-var jwtKey = builder.Configuration["Jwt:Key"];
-var keyBytes = Encoding.UTF8.GetBytes(jwtKey);
-
-builder.Services.AddAuthentication(options =>
+builder.Services.AddHttpClient("AuthServiceClient", client =>
 {
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(options =>
-{
-    options.RequireHttpsMetadata = false;
-    options.SaveToken = true;
-    options.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuer = false,
-        ValidateAudience = false,
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
-        ValidateLifetime = true,
-        ClockSkew = TimeSpan.Zero 
-    };
+    client.BaseAddress = new Uri(builder.Configuration["Services:AuthServiceUrl"]);
 });
+builder.Services.AddScoped<AuthServiceClient>();
 
 builder.Services.AddSwaggerGen(c =>
 {

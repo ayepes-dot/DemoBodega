@@ -6,10 +6,17 @@ using AuthService.Application.Clients;
 using DnsClient;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using MongoDB.Driver;
+using Newtonsoft.Json.Linq;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace AuthService.Api.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class AuthServiceController : Controller
     {
         private readonly UserServiceClients _userService;
@@ -64,23 +71,114 @@ namespace AuthService.Api.Controllers
         }
 
         [HttpPost("revokeToken")]
-        public async Task<IActionResult> RevokeToken([FromBody] string jti)
+        public async Task<IActionResult> RevokeToken([FromBody] string token)
         {
-            var token = new RevokedToken
+            try
             {
-                Jti = jti,
-                UserId = 1,
-                RevokedAt = DateTime.UtcNow,
-                ExpiresAt = DateTime.UtcNow.AddMinutes(Convert.ToInt32(_config["Jwt:ExpiresMinutes"]))
-            };
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var jwtToken = tokenHandler.ReadJwtToken(token);
 
-            await _authServiceDbContext.RevokedTokens.InsertOneAsync(token);
-            return Ok(new
+                var jti = jwtToken.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Jti)?.Value;
+                var userId = jwtToken.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+
+                if (string.IsNullOrEmpty(jti))
+                    return BadRequest(new { message = "Token inválido o sin JTI." });
+
+                var existing = await _authServiceDbContext.RevokedTokens
+                    .Find(r => r.Jti == jti)
+                    .FirstOrDefaultAsync();
+
+                if (existing != null)
+                    return BadRequest(new { message = "El token ya fue revocado previamente." });
+
+                var revokedToken = new RevokedToken
+                {
+                    Jti = jti,
+                    UserId = int.Parse(userId ?? "0"),
+                    RevokedAt = DateTime.UtcNow,
+                    ExpiresAt = jwtToken.ValidTo
+                };
+
+                await _authServiceDbContext.RevokedTokens.InsertOneAsync(revokedToken);
+
+                return Ok(new { message = "Token revocado exitosamente." });
+            }
+            catch (Exception ex)
             {
-                message = "Token revocado correctamente.",
-                token.Jti,
-                token.RevokedAt
-            });
+                return StatusCode(500, new { message = "Error al revocar el token.", error = ex.Message });
+            }
+        }
+
+        [HttpPost("validateToken")]
+        public async Task<IActionResult> ValidateToken([FromBody] string token)
+        {
+            if (string.IsNullOrWhiteSpace(token))
+                return BadRequest(new { valid = false, message = "Token vacío o nulo." });
+
+            try
+            {
+                var raw = token.Trim();
+                if (raw.StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase))
+                    raw = raw.Substring("Bearer ".Length).Trim();
+
+                var handler = new JwtSecurityTokenHandler();
+                JwtSecurityToken parsed;
+                try
+                {
+                    parsed = handler.ReadJwtToken(raw);
+                }
+                catch
+                {
+                    return Unauthorized(new { valid = false, message = "Formato de token inválido." });
+                }
+
+                var jti = parsed.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Jti)?.Value;
+                if (string.IsNullOrEmpty(jti))
+                    return Unauthorized(new { valid = false, message = "El token no contiene JTI." });
+
+                var isRevoked = await _authServiceDbContext.RevokedTokens
+                    .Find(x => x.Jti == jti)
+                    .AnyAsync();
+
+                if (isRevoked)
+                    return Unauthorized(new { valid = false, message = "El token ya ha sido revocado." });
+
+                var key = Encoding.UTF8.GetBytes(_config["Jwt:key"]!);
+                handler.ValidateToken(raw, new TokenValidationParameters
+                {
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ClockSkew = TimeSpan.Zero
+                }, out SecurityToken validatedToken);
+
+                var jwt = (JwtSecurityToken)validatedToken;
+                var userId = jwt.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+                var email = jwt.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+
+                return Ok(new
+                {
+                    valid = true,
+                    message = "Token válido.",
+                    userId,
+                    email,
+                    expira = jwt.ValidTo
+                });
+            }
+            catch (SecurityTokenExpiredException)
+            {
+                return Unauthorized(new { valid = false, message = "El token ha expirado." });
+            }
+            catch (SecurityTokenException ex)
+            {
+                return Unauthorized(new { valid = false, message = "Token inválido.", error = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { valid = false, message = "Error al validar el token.", error = ex.Message });
+            }
         }
     }
 }

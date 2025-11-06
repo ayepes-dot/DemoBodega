@@ -2,7 +2,7 @@
   {
     "ContainingType": "AuthService.Api.Controllers.AuthServiceController",
     "Method": "Login",
-    "RelativePath": "login",
+    "RelativePath": "api/AuthService/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,13 +18,29 @@
   {
     "ContainingType": "AuthService.Api.Controllers.AuthServiceController",
     "Method": "RevokeToken",
-    "RelativePath": "revokeToken",
+    "RelativePath": "api/AuthService/revokeToken",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "jti",
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthService.Api.Controllers.AuthServiceController",
+    "Method": "ValidateToken",
+    "RelativePath": "api/AuthService/validateToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
         "Type": "System.String",
         "IsRequired": true
       }
